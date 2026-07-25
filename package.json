@@ -1,0 +1,21 @@
+{
+  "name": "encore",
+  "version": "1.0.0",
+  "description": "a fonte canônica de encore onde todos os desenvolvimentos estarão alocados estão hosteados em um futuro site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvssn/encore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cvssn/encore/issues"
+  },
+  "homepage": "https://github.com/cvssn/encore#readme"
+}
