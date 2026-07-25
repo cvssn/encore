@@ -1,0 +1,17 @@
+---
+inherit_from:
+  - '../.rubocop.yml'
+
+InternalAffairs:
+  Enabled: true
+
+# esse cop apenas checa por alternativas definidas em
+# `config/default.yml` que não aplica aqui
+InternalAffairs/UndefinedConfig:
+  Enabled: false
+
+# substituir o path padrão de include uma vez que os cops de encore
+# vivem em rubocop/cop/ em vez do path padrão lib/rubocop/cop/
+InternalAffairs/OnSendWithoutOnCSend:
+  Include:
+    - 'rubocop/cop/**/*.rb'

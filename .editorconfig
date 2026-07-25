@@ -8,3 +8,13 @@ trim_trailing_whitespace = true
 insert_final_newline = true
 indent_size = 4
 indent_style = tab
+
+[*.{yml}]
+indent_size = 2
+indent_style = space
+
+[*.{md,markdown,js.snap}]
+trim_trailing_whitespace = false
+
+[doc/**/*.md]
+trim_trailing_whitespace = true
