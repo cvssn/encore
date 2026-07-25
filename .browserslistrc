@@ -1,0 +1,16 @@
+#
+# alvo será da web platform baseline "widely available": as versões
+# de navegador antigas o suficiente para suportar features de uma
+# plataforma web que tem sido estável pelos navegadores core
+# (chrome, edge, firefox e safari, ambos em desktop e mobile) pelos
+# últimos pelo menos 30 meses.
+#
+# ver: https://web-platform-dx.github.io/baseline/ para mais
+# detalhes, e os navegadores web suportados estão documentados em:
+# https://docs.gitlab.com/ee/install/requirements.html#supported-web-browsers
+#
+# para ver os alvos, vá aqui:
+# https://browsersl.ist/#q=baseline%20widely%20available
+#
+
+baseline widely available
