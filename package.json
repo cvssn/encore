@@ -1,4 +1,8 @@
 {
-  "name": "encore",
+  "private": true,
+  "dependencies": {
+    "@babel/preset-env": "^7.23.7",
+    "core-js": "^3.45.1"
+  },
   "packageManager": "yarn@4.9.2"
 }
